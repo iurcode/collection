@@ -108,6 +108,12 @@ themeButton.addEventListener('click', () => {
 // Create Collection Table
 const collection = require('../json/collection.json');
 
+fetch('../json/collection.json')
+.then(response => {
+   return response.json();
+})
+.then(jsondata => console.log(jsondata));
+
 const collectionContainer = document.querySelector('.collection__container');
 const wantlistContainer = document.querySelector('.wantlist__container');
 
