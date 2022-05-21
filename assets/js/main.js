@@ -106,13 +106,190 @@ themeButton.addEventListener('click', () => {
 })
 
 // Create Collection Table
-const collection = require('../json/collection.json');
-
-fetch('../json/collection.json')
-.then(response => {
-   return response.json();
-})
-.then(jsondata => console.log(jsondata));
+const collection = [
+    {
+        "name": "One Step Closer",
+        "type": "Single",
+        "year": 2000,
+        "releases": [
+            {
+                "id": "1",
+                "thumbName": "one-step-closer.jpg",
+                "name": "Vinyl Single",
+                "format": "10 inch",
+                "country": "UK",
+                "upc": "054391677709",
+                "catNumber": "W550TE",
+                "scansCreated": false,
+                "ripsCreated": false,
+                "inCollection": true
+            },
+            {
+                "id": "2",
+                "thumbName": "one-step-closer.jpg",
+                "name": "Cassette Single",
+                "format": "Cassette",
+                "country": "UK",
+                "upc": "054391677747",
+                "catNumber": "W550C",
+                "scansCreated": true,
+                "ripsCreated": false,
+                "inCollection": true
+            },
+            {
+                "id": "3",
+                "thumbName": "one-step-closer.jpg",
+                "name": "Cardsleeve CD Single",
+                "format": "CD",
+                "country": "Germany",
+                "upc": "054391677723",
+                "catNumber": "WEC795",
+                "scansCreated": true,
+                "ripsCreated": true,
+                "inCollection": true
+            },
+            {
+                "id": "4",
+                "thumbName": "one-step-closer.jpg",
+                "name": "Maxi CD Single",
+                "format": "CD",
+                "country": "Germany",
+                "upc": "093624496328",
+                "catNumber": "W550CD",
+                "scansCreated": true,
+                "ripsCreated": true,
+                "inCollection": true
+            },
+            {
+                "id": "5",
+                "thumbName": "one-step-closer.jpg",
+                "name": "Maxi CD Single",
+                "format": "CD",
+                "country": "UK",
+                "upc": "093624496328",
+                "catNumber": "W550CD",
+                "scansCreated": true,
+                "ripsCreated": true,
+                "inCollection": true
+            },
+            {
+                "id": "6",
+                "thumbName": "one-step-closer.jpg",
+                "name": "Maxi CD Single",
+                "format": "CD",
+                "country": "Australia",
+                "upc": "093624496328",
+                "catNumber": "9362449632",
+                "scansCreated": true,
+                "ripsCreated": true,
+                "inCollection": true
+            },
+            {
+                "id": "7",
+                "thumbName": "one-step-closer.jpg",
+                "name": "Cardsleeve Promo CD",
+                "format": "CD",
+                "country": "Germany",
+                "upc": "-",
+                "catNumber": "PRO-2306",
+                "scansCreated": true,
+                "ripsCreated": true,
+                "inCollection": true
+            },
+            {
+                "id": "8",
+                "thumbName": "one-step-closer.jpg",
+                "name": "Promo CD",
+                "format": "CD",
+                "country": "USA",
+                "upc": "-",
+                "catNumber": "PRO-CD-100323",
+                "scansCreated": true,
+                "ripsCreated": true,
+                "inCollection": true
+            },
+            {
+                "id": "9",
+                "thumbName": "one-step-closer.jpg",
+                "name": "Promo CD-R",
+                "format": "CD",
+                "country": "USA",
+                "upc": "-",
+                "catNumber": "PRO-CDR-100318",
+                "scansCreated": true,
+                "ripsCreated": true,
+                "inCollection": true
+            },
+            {
+                "id": "10",
+                "thumbName": "one-step-closer.jpg",
+                "name": "3-Song E.P.",
+                "format": "CD",
+                "country": "USA",
+                "upc": "-",
+                "catNumber": "PRO-CD-100344",
+                "scansCreated": true,
+                "ripsCreated": true,
+                "inCollection": true
+            },
+            {
+                "id": "11",
+                "thumbName": "one-step-closer.jpg",
+                "name": "Cardsleeve Promo CD",
+                "format": "CD",
+                "country": "USA",
+                "upc": "-",
+                "catNumber": "PRO-CD-100445",
+                "scansCreated": false,
+                "ripsCreated": false,
+                "inCollection": true
+            },
+            {
+                "id": "12",
+                "thumbName": "one-step-closer.jpg",
+                "name": "Promo Cassette",
+                "format": "Cassette",
+                "country": "USA",
+                "upc": "-",
+                "catNumber": "PRO-C-100344",
+                "scansCreated": false,
+                "ripsCreated": false,
+                "inCollection": true
+            },
+            {
+                "id": "13",
+                "thumbName": "one-step-closer.jpg",
+                "name": "Promo Cassette",
+                "format": "Cassette",
+                "country": "USA",
+                "upc": "-",
+                "catNumber": "PRO-C-100285",
+                "scansCreated": false,
+                "ripsCreated": false,
+                "inCollection": false
+            }
+        ]
+    },
+    {
+        "name": "Crawling",
+        "type": "Single",
+        "year": 2000,
+        "releases": [
+            {
+                "id": "14",
+                "thumbName": "crawling.jpg",
+                "name": "Cassette Single",
+                "format": "Cassette",
+                "country": "UK",
+                "upc": "054391676047",
+                "catNumber": "W556C",
+                "scansCreated": true,
+                "ripsCreated": false,
+                "inCollection": true
+            },
+        ]
+    }
+]
 
 const collectionContainer = document.querySelector('.collection__container');
 const wantlistContainer = document.querySelector('.wantlist__container');
