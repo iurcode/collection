@@ -291,18 +291,7 @@ for(let item of collection) {
 
     if (item.releases) {
         for(let release of item.releases) {
-            if(release.inCollection) {
-                bodyCollection += `
-                <tr class="collection__body-tr">
-                    <td class="collection-img"><img src="assets/img/thumbs/${release.thumbName}" alt="${item.name}"></td>
-                    <td class="collection-name">${release.format}</td>
-                    <td class="collection-country">${release.country}</td>
-                    <td class="collection-upc">${release.upc}</td>
-                    <td class="collection-catalog">${release.catNumber}</td>
-                    <td class="collection-status">In collection</td>
-                </tr>`;
-                countInCollection++
-            } else {
+            if(!release.inCollection) {
                 bodyWantlist += `
                 <tr class="collection__body-tr">
                     <td class="collection-img"><img src="assets/img/thumbs/${release.thumbName}" alt="${item.name}"></td>
@@ -314,6 +303,17 @@ for(let item of collection) {
                 </tr>`;
                 countInWantlist++
             }
+            
+            bodyCollection += `
+            <tr class="collection__body-tr">
+                <td class="collection-img"><img src="assets/img/thumbs/${release.thumbName}" alt="${item.name}"></td>
+                <td class="collection-name">${release.format}</td>
+                <td class="collection-country">${release.country}</td>
+                <td class="collection-upc">${release.upc}</td>
+                <td class="collection-catalog">${release.catNumber}</td>
+                <td class="collection-status">${release.inCollection ? '<i class="collectedStatus">In collection</i>' : '<i class="wantedStatus">In wantlist</i>'}</td>
+            </tr>`;
+            countInCollection++
         }
 
         tHead = `<thead>
