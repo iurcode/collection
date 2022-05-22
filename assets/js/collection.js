@@ -518,9 +518,26 @@ export const collection = [
  ]
 },
 {
- "name": "Other",
+ "name": "Points Of Authority",
  "type": "Single",
  "year": 2001,
+ "releases": [
+ {
+  "format": "Promo CD",
+  "country": "Germany",
+  "upc": "-",
+  "catNumber": "PR02932",
+  "scansCreated": true,
+  "ripsCreated": true,
+  "inCollection": true,
+  "thumbName": "points-of-authority-promo.jpg"
+ }
+ ]
+},
+{
+ "name": "OTHER",
+ "type": "Single",
+ "year": 2002,
  "releases": [
 
  ]
