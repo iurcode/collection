@@ -628,7 +628,6 @@ img {
     display: flex;
     gap: 1rem;
     flex-direction: column;
-    padding: 0 1rem;
 }
 
 .collection__close .collection__list {
