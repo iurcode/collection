@@ -631,25 +631,6 @@ img {
     padding: 0 1rem;
 }
 
-/* .collection__titles {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid var(--secondary-text-color);
-}
-
-.collection__name {
-  font-size: var(--block-title-fs);
-  color: var(--third-text-color);
-  font-weight: 500;
-}
-
-.collection__subname {
-  font-size: var(--smaller-text);
-  color: var(--secondary-text-color);
-} */
-
 .collection__close .collection__list {
   height: 0;
   overflow: hidden;
@@ -725,6 +706,14 @@ img {
 .collection__table td:nth-of-type(4)::before { content: "UPC: "; }
 .collection__table td:nth-of-type(5)::before { content: "Catalog №: "; }
 .collection__table td:nth-of-type(6)::before { content: "Status: "; }
+
+.collection__table .wantedStatus {
+  color: #c34a32;
+}
+
+.collection__table .collectedStatus {
+  color: var(--main-color);
+}
 
 .footer__container {
   padding: 1rem 1rem;
