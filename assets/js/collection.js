@@ -202,12 +202,22 @@ export const collection = [
   "thumbName": "crawling-black.jpg"
  },
  {
-  "format": "DVD (Jewel)",
-  "country": "Japan",
-  "upc": 4643674960675,
-  "catNumber": "WPBR-90029",
-  "scansCreated": true,
-  "ripsCreated": true,
+  "format": "DVD",
+  "country": "Australia",
+  "upc": "9325583011535",
+  "catNumber": 7599385382,
+  "scansCreated": false,
+  "ripsCreated": false,
+  "inCollection": true,
+  "thumbName": "crawling-red.jpg"
+ },
+ {
+  "format": "DVD",
+  "country": "Germany",
+  "upc": "075993853827",
+  "catNumber": "7599-38538-2",
+  "scansCreated": false,
+  "ripsCreated": false,
   "inCollection": true,
   "thumbName": "crawling-red.jpg"
  },
@@ -222,22 +232,12 @@ export const collection = [
   "thumbName": "crawling-red.jpg"
  },
  {
-  "format": "DVD (Amaray)",
-  "country": "Germany",
-  "upc": "075993853827",
-  "catNumber": "7599-38538-2",
-  "scansCreated": false,
-  "ripsCreated": false,
-  "inCollection": true,
-  "thumbName": "crawling-red.jpg"
- },
- {
-  "format": "DVD (Amaray)",
-  "country": "Australia",
-  "upc": "9325583011535",
-  "catNumber": 7599385382,
-  "scansCreated": false,
-  "ripsCreated": false,
+  "format": "DVD (Jewel)",
+  "country": "Japan",
+  "upc": 4643674960675,
+  "catNumber": "WPBR-90029",
+  "scansCreated": true,
+  "ripsCreated": true,
   "inCollection": true,
   "thumbName": "crawling-red.jpg"
  },
