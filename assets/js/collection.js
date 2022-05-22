@@ -385,6 +385,143 @@ export const collection = [
  "type": "Single",
  "year": 2001,
  "releases": [
+ {
+  "format": "CD (Card Sleeve)",
+  "country": "Germany",
+  "upc": "054391672926",
+  "catNumber": 5439167292,
+  "scansCreated": true,
+  "ripsCreated": true,
+  "inCollection": true,
+  "thumbName": "in-the-end-brown.jpg"
+ },
+ {
+  "format": "CD1 Maxi",
+  "country": "Germany",
+  "upc": "093624241126",
+  "catNumber": "W569CDX",
+  "scansCreated": true,
+  "ripsCreated": true,
+  "inCollection": true,
+  "thumbName": "in-the-end-brown.jpg"
+ },
+ {
+  "format": "CD2 Maxi",
+  "country": "Germany",
+  "upc": "093624241225",
+  "catNumber": "W569CD",
+  "scansCreated": true,
+  "ripsCreated": true,
+  "inCollection": true,
+  "thumbName": "in-the-end-red.jpg"
+ },
+ {
+  "format": "CD1 Maxi",
+  "country": "UK",
+  "upc": "093624241126",
+  "catNumber": "W569CDX",
+  "scansCreated": true,
+  "ripsCreated": true,
+  "inCollection": true,
+  "thumbName": "in-the-end-brown.jpg"
+ },
+ {
+  "format": "CD2 Maxi",
+  "country": "UK",
+  "upc": "093624241225",
+  "catNumber": "W569CD",
+  "scansCreated": true,
+  "ripsCreated": true,
+  "inCollection": true,
+  "thumbName": "in-the-end-red.jpg"
+ },
+ {
+  "format": "CD1 Maxi",
+  "country": "Australia",
+  "upc": "093624241126",
+  "catNumber": 9362424112,
+  "scansCreated": true,
+  "ripsCreated": true,
+  "inCollection": true,
+  "thumbName": "in-the-end-brown.jpg"
+ },
+ {
+  "format": "CD2 Maxi",
+  "country": "Australia",
+  "upc": "093624241225",
+  "catNumber": 9362424122,
+  "scansCreated": true,
+  "ripsCreated": true,
+  "inCollection": true,
+  "thumbName": "in-the-end-red.jpg"
+ },
+ {
+  "format": "CD EP",
+  "country": "Japan",
+  "upc": 4943674032389,
+  "catNumber": "WPCR-11210",
+  "scansCreated": true,
+  "ripsCreated": true,
+  "inCollection": true,
+  "thumbName": "in-the-end-ep.jpg"
+ },
+ {
+  "format": "DVD",
+  "country": "Germany",
+  "upc": "075993855524",
+  "catNumber": "7599-38555-2",
+  "scansCreated": false,
+  "ripsCreated": false,
+  "inCollection": true,
+  "thumbName": "in-the-end-brown.jpg"
+ },
+ {
+  "format": "DVD (Digipack)",
+  "country": "UK",
+  "upc": "075993855593",
+  "catNumber": "W569DVD",
+  "scansCreated": false,
+  "ripsCreated": false,
+  "inCollection": true,
+  "thumbName": "in-the-end-brown.jpg"
+ },
+ {
+  "format": "Promo CD",
+  "country": "Germany",
+  "upc": "-",
+  "catNumber": "PR02753",
+  "scansCreated": true,
+  "ripsCreated": true,
+  "inCollection": true,
+  "thumbName": "in-the-end-brown.jpg"
+ },
+ {
+  "format": "Promo CD (Jewel)",
+  "country": "USA",
+  "upc": "-",
+  "catNumber": "PRO-CD-100687",
+  "scansCreated": true,
+  "ripsCreated": true,
+  "inCollection": true,
+  "thumbName": "in-the-end-brown.jpg"
+ },
+ {
+  "format": "Promo CD + VHS",
+  "country": "USA",
+  "upc": "-",
+  "catNumber": "PRO-CD-100687",
+  "scansCreated": false,
+  "ripsCreated": false,
+  "inCollection": false,
+  "thumbName": "in-the-end-cd-vhs.jpg"
+ }
+ ]
+},
+{
+ "name": "Other",
+ "type": "Single",
+ "year": 2001,
+ "releases": [
 
  ]
 },
