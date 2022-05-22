@@ -298,6 +298,93 @@ export const collection = [
  "type": "Single",
  "year": 2001,
  "releases": [
+ {
+  "format": "Cassette",
+  "country": "UK",
+  "upc": "054391674142",
+  "catNumber": "W562C",
+  "scansCreated": true,
+  "ripsCreated": true,
+  "inCollection": true,
+  "thumbName": "papercut.jpg"
+ },
+ {
+  "format": "CD (Card Sleeve)",
+  "country": "Germany",
+  "upc": "054391674128",
+  "catNumber": "54391 6741 2",
+  "scansCreated": true,
+  "ripsCreated": true,
+  "inCollection": true,
+  "thumbName": "papercut.jpg"
+ },
+ {
+  "format": "CD Maxi",
+  "country": "Germany",
+  "upc": "093624239321",
+  "catNumber": "W562CD",
+  "scansCreated": true,
+  "ripsCreated": true,
+  "inCollection": true,
+  "thumbName": "papercut.jpg"
+ },
+ {
+  "format": "CD Maxi",
+  "country": "UK",
+  "upc": "093624239321",
+  "catNumber": "W562CD",
+  "scansCreated": true,
+  "ripsCreated": true,
+  "inCollection": true,
+  "thumbName": "papercut.jpg"
+ },
+ {
+  "format": "CD Maxi",
+  "country": "Australia",
+  "upc": " 093624239321",
+  "catNumber": 9362423932,
+  "scansCreated": true,
+  "ripsCreated": true,
+  "inCollection": true,
+  "thumbName": "papercut.jpg"
+ },
+ {
+  "format": "Promo CD",
+  "country": "Germany",
+  "upc": null,
+  "catNumber": "PR02571",
+  "scansCreated": true,
+  "ripsCreated": true,
+  "inCollection": true,
+  "thumbName": "papercut-promo-01.jpg"
+ },
+ {
+  "format": "Promo CD (error)",
+  "country": "Germany",
+  "upc": null,
+  "catNumber": "PR02571",
+  "scansCreated": true,
+  "ripsCreated": true,
+  "inCollection": true,
+  "thumbName": "papercut-promo-01.jpg"
+ },
+ {
+  "format": "Promo CD (Electrostatic)",
+  "country": "Taiwan",
+  "upc": null,
+  "catNumber": null,
+  "scansCreated": false,
+  "ripsCreated": false,
+  "inCollection": false,
+  "thumbName": "papercut-promo-02.jpg"
+ }
+ ]
+},
+{
+ "name": "In The End",
+ "type": "Single",
+ "year": 2001,
+ "releases": [
 
  ]
 },
