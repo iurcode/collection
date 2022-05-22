@@ -351,7 +351,7 @@ export const collection = [
  {
   "format": "Promo CD",
   "country": "Germany",
-  "upc": null,
+  "upc": "-",
   "catNumber": "PR02571",
   "scansCreated": true,
   "ripsCreated": true,
@@ -361,7 +361,7 @@ export const collection = [
  {
   "format": "Promo CD (error)",
   "country": "Germany",
-  "upc": null,
+  "upc": "-",
   "catNumber": "PR02571",
   "scansCreated": true,
   "ripsCreated": true,
@@ -371,7 +371,7 @@ export const collection = [
  {
   "format": "Promo CD (Electrostatic)",
   "country": "Taiwan",
-  "upc": null,
+  "upc": "-",
   "catNumber": null,
   "scansCreated": false,
   "ripsCreated": false,
