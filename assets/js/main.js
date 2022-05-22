@@ -311,7 +311,9 @@ for(let item of collection) {
                 <td class="collection-country">${release.country}</td>
                 <td class="collection-upc">${release.upc}</td>
                 <td class="collection-catalog">${release.catNumber}</td>
-                <td class="collection-status">${release.inCollection ? '<i class="collectedStatus">In collection</i>' : '<i class="wantedStatus">In wantlist</i>'}</td>
+                <td class="collection-status">
+                    ${release.inCollection ? '<span class="collectedStatus">In collection</span>' : '<span class="wantedStatus">In wantlist</span>'}
+                </td>
             </tr>`;
             countInCollection++
         }
