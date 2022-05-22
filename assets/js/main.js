@@ -137,7 +137,7 @@ const collection = [
             {
                 "id": "3",
                 "thumbName": "one-step-closer.jpg",
-                "format": "CD (Cardsleeve)",
+                "format": "CD (Card Sleeve)",
                 "country": "Germany",
                 "upc": "054391677723",
                 "catNumber": "WEC795",
@@ -181,7 +181,7 @@ const collection = [
             {
                 "id": "7",
                 "thumbName": "one-step-closer-promo-01.jpg",
-                "format": "Promo CD (Cardsleeve)",
+                "format": "Promo CD (Card Sleeve)",
                 "country": "Germany",
                 "upc": "-",
                 "catNumber": "PR0-2306",
@@ -225,7 +225,7 @@ const collection = [
             {
                 "id": "11",
                 "thumbName": "one-step-closer-promo-02.jpg",
-                "format": "Promo CD (Cardsleeve)",
+                "format": "Promo CD (Card Sleeve)",
                 "country": "USA",
                 "upc": "-",
                 "catNumber": "PRO-CD-100445",
@@ -236,7 +236,7 @@ const collection = [
             {
                 "id": "12",
                 "thumbName": "one-step-closer-promo-01.jpg",
-                "format": "Promo Cassette (Cardsleeve)",
+                "format": "Promo Cassette (Card Sleeve)",
                 "country": "USA",
                 "upc": "-",
                 "catNumber": "PRO-C-100344",
@@ -247,7 +247,7 @@ const collection = [
             {
                 "id": "13",
                 "thumbName": "one-step-closer-promo-01.jpg",
-                "format": "Promo Cassette (Cardsleeve)",
+                "format": "Promo Cassette (Card Sleeve)",
                 "country": "USA",
                 "upc": "-",
                 "catNumber": "PRO-C-100285",
