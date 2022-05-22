@@ -372,7 +372,7 @@ export const collection = [
   "format": "Promo CD (Electrostatic)",
   "country": "Taiwan",
   "upc": "-",
-  "catNumber": null,
+  "catNumber": "-",
   "scansCreated": false,
   "ripsCreated": false,
   "inCollection": false,
