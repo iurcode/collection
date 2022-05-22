@@ -115,9 +115,8 @@ const collection = [
             {
                 "id": "1",
                 "thumbName": "one-step-closer.jpg",
-                "name": "Vinyl Single",
-                "format": "10 inch",
-                "country": "UK",
+                "format": "10 inch Vinyl",
+                "country": "United Kingdom",
                 "upc": "054391677709",
                 "catNumber": "W550TE",
                 "scansCreated": false,
@@ -127,9 +126,8 @@ const collection = [
             {
                 "id": "2",
                 "thumbName": "one-step-closer.jpg",
-                "name": "Cassette Single",
                 "format": "Cassette",
-                "country": "UK",
+                "country": "United Kingdom",
                 "upc": "054391677747",
                 "catNumber": "W550C",
                 "scansCreated": true,
@@ -139,8 +137,7 @@ const collection = [
             {
                 "id": "3",
                 "thumbName": "one-step-closer.jpg",
-                "name": "Cardsleeve CD Single",
-                "format": "CD",
+                "format": "CD (Cardsleeve)",
                 "country": "Germany",
                 "upc": "054391677723",
                 "catNumber": "WEC795",
@@ -151,8 +148,7 @@ const collection = [
             {
                 "id": "4",
                 "thumbName": "one-step-closer.jpg",
-                "name": "Maxi CD Single",
-                "format": "CD",
+                "format": "Maxi CD",
                 "country": "Germany",
                 "upc": "093624496328",
                 "catNumber": "W550CD",
@@ -163,9 +159,8 @@ const collection = [
             {
                 "id": "5",
                 "thumbName": "one-step-closer.jpg",
-                "name": "Maxi CD Single",
-                "format": "CD",
-                "country": "UK",
+                "format": "Maxi CD",
+                "country": "United Kingdom",
                 "upc": "093624496328",
                 "catNumber": "W550CD",
                 "scansCreated": true,
@@ -175,8 +170,7 @@ const collection = [
             {
                 "id": "6",
                 "thumbName": "one-step-closer.jpg",
-                "name": "Maxi CD Single",
-                "format": "CD",
+                "format": "Maxi CD",
                 "country": "Australia",
                 "upc": "093624496328",
                 "catNumber": "9362449632",
@@ -186,21 +180,19 @@ const collection = [
             },
             {
                 "id": "7",
-                "thumbName": "one-step-closer.jpg",
-                "name": "Cardsleeve Promo CD",
-                "format": "CD",
+                "thumbName": "one-step-closer-promo-01.jpg",
+                "format": "Promo CD (Cardsleeve)",
                 "country": "Germany",
                 "upc": "-",
-                "catNumber": "PRO-2306",
+                "catNumber": "PR0-2306",
                 "scansCreated": true,
                 "ripsCreated": true,
                 "inCollection": true
             },
             {
                 "id": "8",
-                "thumbName": "one-step-closer.jpg",
-                "name": "Promo CD",
-                "format": "CD",
+                "thumbName": "one-step-closer-promo-01.jpg",
+                "format": "Promo CD",
                 "country": "USA",
                 "upc": "-",
                 "catNumber": "PRO-CD-100323",
@@ -210,9 +202,8 @@ const collection = [
             },
             {
                 "id": "9",
-                "thumbName": "one-step-closer.jpg",
-                "name": "Promo CD-R",
-                "format": "CD",
+                "thumbName": "one-step-closer-promo-03.jpg",
+                "format": "Promo CD-R",
                 "country": "USA",
                 "upc": "-",
                 "catNumber": "PRO-CDR-100318",
@@ -222,9 +213,8 @@ const collection = [
             },
             {
                 "id": "10",
-                "thumbName": "one-step-closer.jpg",
-                "name": "3-Song E.P.",
-                "format": "CD",
+                "thumbName": "one-step-closer-promo-01.jpg",
+                "format": "Promo CD (3-Song EP)",
                 "country": "USA",
                 "upc": "-",
                 "catNumber": "PRO-CD-100344",
@@ -234,9 +224,8 @@ const collection = [
             },
             {
                 "id": "11",
-                "thumbName": "one-step-closer.jpg",
-                "name": "Cardsleeve Promo CD",
-                "format": "CD",
+                "thumbName": "one-step-closer-promo-02.jpg",
+                "format": "Promo CD (Cardsleeve)",
                 "country": "USA",
                 "upc": "-",
                 "catNumber": "PRO-CD-100445",
@@ -246,9 +235,8 @@ const collection = [
             },
             {
                 "id": "12",
-                "thumbName": "one-step-closer.jpg",
-                "name": "Promo Cassette",
-                "format": "Cassette",
+                "thumbName": "one-step-closer-promo-01.jpg",
+                "format": "Promo Cassette",
                 "country": "USA",
                 "upc": "-",
                 "catNumber": "PRO-C-100344",
@@ -258,9 +246,8 @@ const collection = [
             },
             {
                 "id": "13",
-                "thumbName": "one-step-closer.jpg",
-                "name": "Promo Cassette",
-                "format": "Cassette",
+                "thumbName": "one-step-closer-promo-01.jpg",
+                "format": "Promo Cassette",
                 "country": "USA",
                 "upc": "-",
                 "catNumber": "PRO-C-100285",
@@ -278,9 +265,8 @@ const collection = [
             {
                 "id": "14",
                 "thumbName": "crawling.jpg",
-                "name": "Cassette Single",
                 "format": "Cassette",
-                "country": "UK",
+                "country": "United Kingdom",
                 "upc": "054391676047",
                 "catNumber": "W556C",
                 "scansCreated": true,
@@ -309,7 +295,7 @@ for(let item of collection) {
                 bodyCollection += `
                 <tr class="collection__body-tr">
                     <td class="collection-img"><img src="assets/img/thumbs/${release.thumbName}" alt="${item.name}"></td>
-                    <td class="collection-name">${release.name}</td>
+                    <td class="collection-name">${release.format}</td>
                     <td class="collection-country">${release.country}</td>
                     <td class="collection-upc">${release.upc}</td>
                     <td class="collection-catalog">${release.catNumber}</td>
@@ -320,7 +306,7 @@ for(let item of collection) {
                 bodyWantlist += `
                 <tr class="collection__body-tr">
                     <td class="collection-img"><img src="assets/img/thumbs/${release.thumbName}" alt="${item.name}"></td>
-                    <td class="collection-name">${release.name}</td>
+                    <td class="collection-name">${release.format}</td>
                     <td class="collection-country">${release.country}</td>
                     <td class="collection-upc">${release.upc}</td>
                     <td class="collection-catalog">${release.catNumber}</td>
