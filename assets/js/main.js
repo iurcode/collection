@@ -106,7 +106,7 @@ themeButton.addEventListener('click', () => {
 })
 
 // Create Collection Table
-import {collection} from ('./collection.js');
+import {collection} from './collection.js';
 
 const collectionContainer = document.querySelector('.collection__container');
 const wantlistContainer = document.querySelector('.wantlist__container');
