@@ -203,7 +203,7 @@ const collection = [
             {
                 "id": "9",
                 "thumbName": "one-step-closer-promo-03.jpg",
-                "format": "Promo CD-R",
+                "format": "Promo CDR",
                 "country": "USA",
                 "upc": "-",
                 "catNumber": "PRO-CDR-100318",
@@ -236,7 +236,7 @@ const collection = [
             {
                 "id": "12",
                 "thumbName": "one-step-closer-promo-01.jpg",
-                "format": "Promo Cassette",
+                "format": "Promo Cassette (Cardsleeve)",
                 "country": "USA",
                 "upc": "-",
                 "catNumber": "PRO-C-100344",
@@ -247,7 +247,7 @@ const collection = [
             {
                 "id": "13",
                 "thumbName": "one-step-closer-promo-01.jpg",
-                "format": "Promo Cassette",
+                "format": "Promo Cassette (Cardsleeve)",
                 "country": "USA",
                 "upc": "-",
                 "catNumber": "PRO-C-100285",
