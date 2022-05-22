@@ -107,174 +107,308 @@ themeButton.addEventListener('click', () => {
 
 // Create Collection Table
 const collection = [
-    {
-        "name": "One Step Closer",
-        "type": "Single",
-        "year": 2000,
-        "releases": [
-            {
-                "id": "1",
-                "thumbName": "one-step-closer.jpg",
-                "format": "10 inch Vinyl",
-                "country": "United Kingdom",
-                "upc": "054391677709",
-                "catNumber": "W550TE",
-                "scansCreated": false,
-                "ripsCreated": false,
-                "inCollection": true
-            },
-            {
-                "id": "2",
-                "thumbName": "one-step-closer.jpg",
-                "format": "Cassette",
-                "country": "United Kingdom",
-                "upc": "054391677747",
-                "catNumber": "W550C",
-                "scansCreated": true,
-                "ripsCreated": false,
-                "inCollection": true
-            },
-            {
-                "id": "3",
-                "thumbName": "one-step-closer.jpg",
-                "format": "CD (Card Sleeve)",
-                "country": "Germany",
-                "upc": "054391677723",
-                "catNumber": "WEC795",
-                "scansCreated": true,
-                "ripsCreated": true,
-                "inCollection": true
-            },
-            {
-                "id": "4",
-                "thumbName": "one-step-closer.jpg",
-                "format": "Maxi CD",
-                "country": "Germany",
-                "upc": "093624496328",
-                "catNumber": "W550CD",
-                "scansCreated": true,
-                "ripsCreated": true,
-                "inCollection": true
-            },
-            {
-                "id": "5",
-                "thumbName": "one-step-closer.jpg",
-                "format": "Maxi CD",
-                "country": "United Kingdom",
-                "upc": "093624496328",
-                "catNumber": "W550CD",
-                "scansCreated": true,
-                "ripsCreated": true,
-                "inCollection": true
-            },
-            {
-                "id": "6",
-                "thumbName": "one-step-closer.jpg",
-                "format": "Maxi CD",
-                "country": "Australia",
-                "upc": "093624496328",
-                "catNumber": "9362449632",
-                "scansCreated": true,
-                "ripsCreated": true,
-                "inCollection": true
-            },
-            {
-                "id": "7",
-                "thumbName": "one-step-closer-promo-01.jpg",
-                "format": "Promo CD (Card Sleeve)",
-                "country": "Germany",
-                "upc": "-",
-                "catNumber": "PR0-2306",
-                "scansCreated": true,
-                "ripsCreated": true,
-                "inCollection": true
-            },
-            {
-                "id": "8",
-                "thumbName": "one-step-closer-promo-01.jpg",
-                "format": "Promo CD",
-                "country": "USA",
-                "upc": "-",
-                "catNumber": "PRO-CD-100323",
-                "scansCreated": true,
-                "ripsCreated": true,
-                "inCollection": true
-            },
-            {
-                "id": "9",
-                "thumbName": "one-step-closer-promo-03.jpg",
-                "format": "Promo CDR",
-                "country": "USA",
-                "upc": "-",
-                "catNumber": "PRO-CDR-100318",
-                "scansCreated": true,
-                "ripsCreated": true,
-                "inCollection": true
-            },
-            {
-                "id": "10",
-                "thumbName": "one-step-closer-promo-01.jpg",
-                "format": "Promo CD (3-Song EP)",
-                "country": "USA",
-                "upc": "-",
-                "catNumber": "PRO-CD-100344",
-                "scansCreated": true,
-                "ripsCreated": true,
-                "inCollection": true
-            },
-            {
-                "id": "11",
-                "thumbName": "one-step-closer-promo-02.jpg",
-                "format": "Promo CD (Card Sleeve)",
-                "country": "USA",
-                "upc": "-",
-                "catNumber": "PRO-CD-100445",
-                "scansCreated": false,
-                "ripsCreated": false,
-                "inCollection": true
-            },
-            {
-                "id": "12",
-                "thumbName": "one-step-closer-promo-01.jpg",
-                "format": "Promo Cassette (Card Sleeve)",
-                "country": "USA",
-                "upc": "-",
-                "catNumber": "PRO-C-100344",
-                "scansCreated": false,
-                "ripsCreated": false,
-                "inCollection": true
-            },
-            {
-                "id": "13",
-                "thumbName": "one-step-closer-promo-01.jpg",
-                "format": "Promo Cassette (Card Sleeve)",
-                "country": "USA",
-                "upc": "-",
-                "catNumber": "PRO-C-100285",
-                "scansCreated": false,
-                "ripsCreated": false,
-                "inCollection": false
-            }
-        ]
-    },
-    {
-        "name": "Crawling",
-        "type": "Single",
-        "year": 2000,
-        "releases": [
-            {
-                "id": "14",
-                "thumbName": "crawling.jpg",
-                "format": "Cassette",
-                "country": "United Kingdom",
-                "upc": "054391676047",
-                "catNumber": "W556C",
-                "scansCreated": true,
-                "ripsCreated": false,
-                "inCollection": true
-            },
-        ]
-    }
+{
+ "name": "One Step Closer",
+ "type": "Single",
+ "year": 2000,
+ "releases": [
+ {
+  "format": "Vinyl",
+  "country": "UK",
+  "upc": "054391677709",
+  "catNumber": "W550TE",
+  "scansCreated": false,
+  "ripsCreated": false,
+  "inCollection": true,
+  "thumbName": "one-step-closer.jpg"
+ },
+ {
+  "format": "Cassette",
+  "country": "UK",
+  "upc": "054391677747",
+  "catNumber": "W550C",
+  "scansCreated": true,
+  "ripsCreated": false,
+  "inCollection": true,
+  "thumbName": "one-step-closer.jpg"
+ },
+ {
+  "format": "CD (Card Sleeve)",
+  "country": "Germany",
+  "upc": "054391677723",
+  "catNumber": "5439-16777-2",
+  "scansCreated": true,
+  "ripsCreated": true,
+  "inCollection": true,
+  "thumbName": "one-step-closer.jpg"
+ },
+ {
+  "format": "CD Maxi ",
+  "country": "Germany",
+  "upc": "093624496328",
+  "catNumber": "W550CD",
+  "scansCreated": true,
+  "ripsCreated": true,
+  "inCollection": true,
+  "thumbName": "one-step-closer.jpg"
+ },
+ {
+  "format": "CD Maxi ",
+  "country": "UK",
+  "upc": "093624496328",
+  "catNumber": "W550CD",
+  "scansCreated": true,
+  "ripsCreated": true,
+  "inCollection": true,
+  "thumbName": "one-step-closer.jpg"
+ },
+ {
+  "format": "CD Maxi ",
+  "country": "Australia",
+  "upc": "093624496328",
+  "catNumber": 9362449632,
+  "scansCreated": true,
+  "ripsCreated": true,
+  "inCollection": true,
+  "thumbName": "one-step-closer.jpg"
+ },
+ {
+  "format": "Promo Cassette",
+  "country": "USA",
+  "upc": null,
+  "catNumber": "PRO-C-100285",
+  "scansCreated": false,
+  "ripsCreated": false,
+  "inCollection": false,
+  "thumbName": "one-step-closer-promo-01.jpg"
+ },
+ {
+  "format": "Promo Cassette",
+  "country": "USA",
+  "upc": null,
+  "catNumber": "PRO-C-100344",
+  "scansCreated": false,
+  "ripsCreated": false,
+  "inCollection": true,
+  "thumbName": "one-step-closer-promo-01.jpg"
+ },
+ {
+  "format": "Promo CD [3-Song EP]",
+  "country": "USA",
+  "upc": null,
+  "catNumber": "PRO-CD-100344",
+  "scansCreated": true,
+  "ripsCreated": true,
+  "inCollection": true,
+  "thumbName": "one-step-closer-promo-01.jpg"
+ },
+ {
+  "format": "Promo CD (Card Sleeve)",
+  "country": "Germany",
+  "upc": null,
+  "catNumber": "PR0-2306",
+  "scansCreated": true,
+  "ripsCreated": true,
+  "inCollection": true,
+  "thumbName": "one-step-closer-promo-01.jpg"
+ },
+ {
+  "format": "Promo CD (Jewel)",
+  "country": "USA",
+  "upc": null,
+  "catNumber": "PRO-CD-100323",
+  "scansCreated": true,
+  "ripsCreated": true,
+  "inCollection": true,
+  "thumbName": "one-step-closer-promo-01.jpg"
+ },
+ {
+  "format": "Promo CD (Card Sleeve)",
+  "country": "USA",
+  "upc": null,
+  "catNumber": "PRO-CD-100445",
+  "scansCreated": false,
+  "ripsCreated": false,
+  "inCollection": true,
+  "thumbName": "one-step-closer-promo-02.jpg"
+ },
+ {
+  "format": "Promo CDR (Jewel)",
+  "country": "USA",
+  "upc": null,
+  "catNumber": "PRO-CDR-100318",
+  "scansCreated": true,
+  "ripsCreated": true,
+  "inCollection": true,
+  "thumbName": "one-step-closer-promo-03.jpg"
+ }
+ ]
+},
+{
+ "name": "Crawling",
+ "type": "Single",
+ "year": 2001,
+ "releases": [
+{
+  "format": "Cassette (transparent)",
+  "country": "UK",
+  "upc": "054391676047",
+  "catNumber": "W556C",
+  "scansCreated": false,
+  "ripsCreated": false,
+  "inCollection": false,
+  "thumbName": "crawling-red.jpg"
+ },
+ {
+  "format": "Cassette (black)",
+  "country": "UK",
+  "upc": "054391676047",
+  "catNumber": "W556C",
+  "scansCreated": true,
+  "ripsCreated": true,
+  "inCollection": true,
+  "thumbName": "crawling-red.jpg"
+ },
+ {
+  "format": "CD (Card Sleeve)",
+  "country": "Germany",
+  "upc": "054391676023",
+  "catNumber": "5439167602",
+  "scansCreated": true,
+  "ripsCreated": true,
+  "inCollection": true,
+  "thumbName": "crawling-black.jpg"
+ },
+ {
+  "format": "CD Maxi ",
+  "country": "Germany",
+  "upc": "093624499527",
+  "catNumber": "W556CD",
+  "scansCreated": true,
+  "ripsCreated": true,
+  "inCollection": true,
+  "thumbName": "crawling-black.jpg"
+ },
+ {
+  "format": "CD Maxi ",
+  "country": "UK",
+  "upc": "093624499527",
+  "catNumber": "W556CD",
+  "scansCreated": true,
+  "ripsCreated": true,
+  "inCollection": true,
+  "thumbName": "crawling-black.jpg"
+ },
+ {
+  "format": "CD Maxi ",
+  "country": "Australia",
+  "upc": "093624499527",
+  "catNumber": 9362449952,
+  "scansCreated": true,
+  "ripsCreated": true,
+  "inCollection": true,
+  "thumbName": "crawling-black.jpg"
+ },
+ {
+  "format": "DVD (Jewel)",
+  "country": "Japan",
+  "upc": 4643674960675,
+  "catNumber": "WPBR-90029",
+  "scansCreated": true,
+  "ripsCreated": true,
+  "inCollection": true,
+  "thumbName": "crawling-red.jpg"
+ },
+ {
+  "format": "DVD (Digipack)",
+  "country": "UK",
+  "upc": "075993853827",
+  "catNumber": "W556DVD",
+  "scansCreated": false,
+  "ripsCreated": false,
+  "inCollection": true,
+  "thumbName": "crawling-red.jpg"
+ },
+ {
+  "format": "DVD (Amaray)",
+  "country": "Germany",
+  "upc": "075993853827",
+  "catNumber": "7599-38538-2",
+  "scansCreated": false,
+  "ripsCreated": false,
+  "inCollection": true,
+  "thumbName": "crawling-red.jpg"
+ },
+ {
+  "format": "DVD (Amaray)",
+  "country": "Australia",
+  "upc": "9325583011535",
+  "catNumber": 7599385382,
+  "scansCreated": false,
+  "ripsCreated": false,
+  "inCollection": true,
+  "thumbName": "crawling-red.jpg"
+ },
+ {
+  "format": "Promo CD",
+  "country": "Germany",
+  "upc": null,
+  "catNumber": "PR02415",
+  "scansCreated": true,
+  "ripsCreated": true,
+  "inCollection": true,
+  "thumbName": "crawling-promo-01.jpg"
+ },
+ {
+  "format": "Promo CD",
+  "country": "Japan",
+  "upc": null,
+  "catNumber": "PCS-521",
+  "scansCreated": true,
+  "ripsCreated": true,
+  "inCollection": true,
+  "thumbName": "crawling-promo-02.jpg"
+ },
+ {
+  "format": "Promo CD (Jewel)",
+  "country": "USA",
+  "upc": null,
+  "catNumber": "PRO-CD-100561",
+  "scansCreated": true,
+  "ripsCreated": true,
+  "inCollection": true,
+  "thumbName": "crawling-promo-03.jpg"
+ },
+ {
+  "format": "Promo CD [Blitz Cidade]",
+  "country": "Brazil",
+  "upc": null,
+  "catNumber": "CDWP071",
+  "scansCreated": false,
+  "ripsCreated": false,
+  "inCollection": false,
+  "thumbName": "crawling-promo-04.jpg"
+ },
+ {
+  "format": "Promo CD [Agente 103]",
+  "country": "Brazil",
+  "upc": null,
+  "catNumber": "CDWP072",
+  "scansCreated": false,
+  "ripsCreated": false,
+  "inCollection": false,
+  "thumbName": "crawling-promo-04.jpg"
+ }
+ ]
+},
+{
+ "name": "Papercut",
+ "type": "Single",
+ "year": 2001,
+ "releases": [
+
+ ]
+},
 ]
 
 const collectionContainer = document.querySelector('.collection__container');
